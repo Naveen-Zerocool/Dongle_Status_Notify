@@ -75,7 +75,7 @@ button1.pack()
 
 try:
     while True:
-        time.sleep(3)
+        time.sleep(60)
         bp, bs, ss, status = getdata()
         if status == 1:
             fullbat()
